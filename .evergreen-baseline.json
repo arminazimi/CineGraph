@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "evergreen.baseline.v1",
+  "createdAt": "2026-11-03T21:48:46.066Z",
+  "findings": [
+    {
+      "fingerprint": "e54cafbbcd3925de8e264ae5bc5683a987ef1d9fd416f4643fc2f919f7841e22",
+      "ruleId": "github-actions.checkout.node20",
+      "path": ".github/workflows/ci.yml",
+      "owner": "arminazimi",
+      "reason": "Pre-existing actions/checkout@v4 pin in .github/workflows/ci.yml. Issue arminazimi/evergreen#1302 may only add the Evergreen workflow and this baseline, so the one-line bump to @v5 is left to a CineGraph pull request.",
+      "created": "2026-11-03",
+      "expires": "2027-01-31"
+    }
+  ],
+  "history": [
+    {
+      "at": "2026-11-03T21:48:46.066Z",
+      "count": 1
+    }
+  ]
+}
